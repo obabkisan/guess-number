@@ -32,6 +32,7 @@ def main():
 
     # вызываем функцию после определения
     result, tries = guess_number(number, data_list, search_type)
+    
     # выводим результат
     if result == -1:
         print("Число не найдено в указанном диапазоне")
